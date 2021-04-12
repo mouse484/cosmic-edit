@@ -1,0 +1,23 @@
+{
+  "name": "cosmic-edit",
+  "description": "",
+  "author": "mouse_484",
+  "scripts": {
+    "dev": "ts-node src",
+    "fix": "yarn fmt && yarn lint --fix",
+    "fmt": "prettier --write .",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "ts-node": "9.1.1"
+  },
+  "devDependencies": {
+    "@mouse_484/eslint-config-node": "https://eslint-config.mouse484.tk/Node?next",
+    "@mouse_484/eslint-config-prettier": "https://eslint-config.mouse484.tk/Prettier?next",
+    "@mouse_484/eslint-config-typescript": "https://eslint-config.mouse484.tk/TypeScript?next",
+    "@types/node": "14.14.37",
+    "eslint": "7.24.0",
+    "prettier": "2.2.1",
+    "typescript": "4.2.4"
+  }
+}
